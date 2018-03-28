@@ -1,0 +1,93 @@
+@CHARSET "ISO-8859-1";
+   
+.inputtype1
+{
+    padding: 12px 20px;
+    margin: 8px 13% 8px ;
+    box-sizing: border-box;
+    border: 3px solid  	#8A2BE2;
+    outline: none;
+}
+
+
+.inputtype1:focus {
+    background-color: #C1CDCD;
+}
+
+.MyInputContainer{
+	height:auto;
+	width:300px;
+	background-color:pink;
+	 margin: auto;
+    border: 3px solid #73AD21;
+   margin-bottom:40px;
+   margin-top: 50px;
+}
+.MyInputContainer1{
+	height:auto;
+	width:auto;
+	background-color:pink;
+	 margin: auto;
+    border: 3px solid #73AD21;
+   margin:auto;
+   }
+
+.MyInputContainer:hover{
+box-shadow:15px 15px 8px #888888;
+}
+
+.MySubmitButton{
+	 padding: 20px 20px;
+    margin-left:35%;
+	
+}
+.login-btn {
+	padding:12px 20px;
+	margin-left:110px;
+    margin-bottom:5px; 
+  right: 1rem;
+  bottom: 1rem;
+  width: 5rem;
+  height: 5rem;
+  border: none;
+  background:#2D66F1;
+  border-radius: 50%;
+  font-size: 0;
+  border: 0.6rem solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+.login-btn:after {
+  content: "";
+  left: 1rem;
+  top: 0.8rem;
+  width: 0;
+  height: 0;
+  border-left: 2.4rem solid #fff;
+  border-top: 1.2rem solid transparent;
+  border-bottom: 1.2rem solid transparent;
+  transition: border 0.3s ease-in-out 0s;
+}
+.login-btn:hover, .login-btn:focus, .login-btn:active {
+  background: #fff;
+  border-color: orange;
+  outline: none;
+}
+.login-btn:hover:after, .login-btn:focus:after, .login-btn:active:after {
+  border-left-color: #2D66F1;
+}
+
+.editedbutton {
+	background:#2679DE;color: white;
+border-style: outset;border-color: #0066A2;
+height: 30px;width: 70px;
+font: bold 15px arial, sans-serif;text-shadow:none;
+margin-bottom: 10px;}
+
+
+.editedbutton:hover{
+background: #0066A2;color: white;
+border-style: outset;border-color: #0066A2;
+height: 30px;width: 60px;
+font: bold 15px arial, sans-serif;text-shadow:none;
+margin-bottom: 10px;	
+}
